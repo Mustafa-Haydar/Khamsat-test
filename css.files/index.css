@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    height: 56px;
+    flex-direction: row-reverse;
+}
+.nav-bar .fav{
+    position: relative;
+    font-size: 28px;
+    margin: 10px 0 20px 70px;
+    transform: translate(30px , -5px);
+}
+.nav-bar i{
+    right: 0;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    margin-top: 10px;
+    /* width: 30px; */
+}
+.nav-bar img{
+    margin-bottom: 8px;
+    left: 170px;
+    position: relative;
+    height: 40px;
+    margin-top: 10px;
+}
+.nav-bar .icons{
+    position: relative;
+    left: 200px;
+}
+.nav-bar .icons i{
+    margin: 8px;
+}
+.nav-bar .icons i h1{
+    font-size: 16px;
+    position: relative;
+    margin: 0 9px;
+    display: inline-table;
+}
+.left-icons{
+    margin-top: 8px;
+    margin-left: -20px;
+}
+.left-icons i{
+    margin: 0 5px;
+}
+.background{
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-bottom: 44px;
+}
+.background .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.background .box .mr1{
+    font-size: 37px;
+    color: #0b0101;
+    line-height: 60px;
+    font-style: normal;
+}
+.background .box .mr2{
+    color: #0b0101db;
+    font-size: 21px;
+    line-height: 30px;
+    margin: 0 auto 20px;
+}
+.background .box form{
+    height: 70px;
+    padding-left: 18%;
+    margin-bottom: 0;
+}
+.background .box input[type="text"]{
+    height: 70px;
+    width: 670px;
+    margin-left: -120px;
+}
+.background .box input[placeholder]{
+    direction: rtl;
+    font-size: 18px;
+}
+.background .box button{
+    position: absolute;
+    left: 9px;
+    width: 70px;
+    height: 54px;
+    background-color: #52b035;
+    top: 50%;
+    transform: translate(133px, 28px);
+    color: #fff;
+    border-color: #52b035;
+    font-size: 16px;
+    border-radius: 3px;
+}
+/* SERVICES */
+.service-box{
+    display: block;
+}
+.service-box .main-text{
+    margin-bottom: 44px;
+    text-align: center;
+}
+.service-box .main-text h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: normal;
+    word-spacing: 9px;
+}
+.service-boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service-boxes .services a{
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 22px;
+}
+.service-boxes .services a span{
+    margin-top: 10px;
+    position: absolute;
+    color: white;
+    font-size: x-large;
+}
+.service-boxes .services a::after{
+    content: '';
+    background-color: #000;
+}
+.service-box .services img{
+    width: 310px;
+    height: 200px;
+    margin: 20px;
+    background-color: #000;
+
+}
+/* <!-- ALL OTHER SERVICES  --> */
+.servises-block{
+    padding: 50px;
+    background-color: #eee;
+}
+.servises-block .general-services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    direction: rtl;
+}
+.cetegory-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.cetegory-title .title-line a{
+    text-decoration: none;
+}
+.cetegory-title .title-line h2{
+    color: #1b1c1d;
+    margin-left: 40px;
+}
+.cetegory-title .title-link{
+    border: 1px solid green;
+    padding: 6px;
+}
+.cetegory-title .title-link a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.product{
+    width: 25%;
+    margin: 15px;
+}
+.product-body{
+    position: relative;
+}
+.product-body .photo img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.product-body .detailes h4{
+    font-size: 14px;
+    color: #222222;
+    margin-bottom: 5px;
+}
+.product-body .detailes h4:hover{
+    color: green;
+}
+.product-body .detailes span{
+    color: #000000a8;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.product-body .detailes i{
+    color: #fa9747;
+    display: table-cell;
+    padding: 2px;
+    font-size: 14px;
+}
+.product-body .detailes .reviwes{
+    position: absolute;
+    left: calc(100% - 125px);
+    margin-top: -18px;
+}
+.product-body .detailes .price span{
+    font-weight: bolder;
+    color: black;
+}
+/* ABOUT SECTION */
+.about{
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+.about-holder{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.website{
+    direction: rtl;
+}
+.website h5{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+.website ul a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.website ul li{
+    color: #008000b8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.website i{
+    font-size: 32px;
+    color: #555;
+}
+/*footer */
+.footer{
+    background-color: #eee;
+    padding: 10px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer .footer-holder a{
+    text-decoration: none;
+    color: #000000bd;
+    margin-left: 40px;
+}
+.copyright{
+    direction: ltr;
+    font-size: 14px;
+}
+/* LAST SECTION */
+.last-holder{
+    margin-right: 40px;
+}
+.last-logo{
+    margin: auto; 
+}
+.last-logo a img{
+    width: 120px;
+    height: 34px;
+    left: 50%;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+.last-p-s{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    direction: rtl;
+    margin: 20px 200px 40px 200px;
+}
+.p-s{
+    margin: 15px;
+}
+.last-p-s p{
+    font-size: 12px;
+    line-height: 0.5em;
+    padding: 8px 0;
+    margin: 0;
+}
+.last-p-s span{
+    color: #777;
+    font-size: 11px;
+    line-height: 1.4em;
+    padding: 2px 0;
+    margin: 0;
+}
